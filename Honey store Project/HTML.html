@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Honey Store</title>
+        <link rel="stylesheet" href="CSS.css">
+    </head>
+    <header> 
+      <h1 style="color: #EBA937;">Welcome to Honey Store 
+        <a href="LoginPage.html">
+        <button style="margin-left:  60%;;" class="btn">| Login</button></a>
+        <a href="CartPage.html" id="cartButton">
+          <button style="margin-left: 30px;;" class="btn">| Cart (0)</button></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+    </header>     
+    <body>
+      <div class="background">
+        <main>
+          <section>
+              <h1 style="text-align: center; font-size: 4em; ">Our Products</h1>
+              <div class="product" >
+                <img src="images/img1.png" alt="image not found" height="500" width="500">
+                <h3>Hot Honey</h3>
+                <p> a sweet fluid made by honeybees using the nectar of flowering plants</p>
+                <button class="btn" onclick="addToCart()">Add to Cart</button>
+              </div><br>
+        
+              <div class="product">
+                <img src="images/img2.png" alt="image not found" height="500" width="500">
+                <h3>Clover flower honey </h3>
+                <p>Distinguished for its delicate taste and popular flavor. Produced from the flowers of sweet clover</p>
+                <button class="btn" onclick="addToCart()">Add to Cart</button>
+              </div><br>
+
+              <div class="product">
+                <img src="images/img3.png" alt="image not found" height="500" width="500">
+                <h3>Manuka Honey </h3>
+                <p>Manuka honey is a honey native to New Zealand. It's produced by bees that pollinate the flower</p>
+                <button class="btn" onclick="addToCart()">Add to Cart</button>
+              </div><br>
+
+              <div class="product">
+                <img src="images/img4.png" alt="image not found" height="500" width="500">
+                <h3>Dandelion Honey  </h3>
+                <p>Dandelion honey has an intense golden yellow color.</p>
+                <button class="btn" onclick="addToCart()">Add to Cart</button>
+              </div><br>
+
+              <div class="product">
+                <img src="images/img5.png" alt="image not found" height="500" width="500">
+                <h3>Beeswax </h3>
+                <p>Beeswax is a naturally occurring wax produced in the bee's hives by honeybees</p>
+                <button class="btn" onclick="addToCart()">Add to Cart</button>
+              </div><br>
+
+            </section>
+            <section id="about">
+              <h2>About Us</h2>
+              <p>Welcome to our page! We are very happy that you are participating with us here on our page. We would like to welcome you with all love, and give you the good news that we have a new product and our special honey is ready and available!
+                Our natural honey is distinguished by its wonderful flavor and delicious taste. We care about the quality of the product, use the best types of bees, and carefully collect honey from clean natural environments free of pesticides and harmful substances.
+                Our honey is 100% natural and does not contain any artificial additives or preservatives. It contains valuable nutrients and many health benefits. It is an excellent product for health and wellness.
+                If you have any questions or inquiries about our product, we are ready to help you and answer all questions. We want you to be satisfied and happy with the product and our service.
+                Thank you for your trust in us and your support. We are very excited to share this journey with you and delight you with our distinctive product. Follow us to benefit from our exclusive news and offers. Welcome to our family and the world of our natural honey! 🍯🌼</p>
+          </section>
+        </main>
+          <footer>
+            <p>&copy; 2023 Honey Store. All rights reserved.</p>
+          </footer>
+          <script>
+            function addToCart() {
+              var cartButton = document.getElementById('cartButton');
+              var cartCount = parseInt(cartButton.innerText.match(/\d+/)[0]);
+        
+              cartCount++;
+              cartButton.innerText = '| Cart (' + cartCount + ')';
+            }
+          </script>
+      </div>
+    </body>
+</html>
