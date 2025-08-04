@@ -1,5 +1,5 @@
 _______________________________________________________________
-#Static Version (HTML + CSS)#
+Static Version (HTML + CSS)
 ----------------------------------------------------------
 Simple frontend with product display.
 
@@ -7,7 +7,7 @@ No dynamic features (data is hardcoded).
 
 Uses index.html + styles.css.
 _______________________________________________________________________
-#Dynamic Version (PHP + CSS)#
+Dynamic Version (PHP + CSS)
 -----------------------------------------------------------
 Connects to MySQL via XAMPP (localhost/phpmyadmin).
 
@@ -20,4 +20,4 @@ Shopping cart (session-based).
 Admin panel (add/edit/delete products).
 
 Uses index.php, styles.css, and MySQL queries.
-------------------------------------------------------------------------------
+___________________________________________________________________
