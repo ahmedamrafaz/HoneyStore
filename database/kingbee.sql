@@ -44,10 +44,10 @@ CREATE TABLE `customers` (
 
 INSERT INTO `customers` (`CustomersID`, `City`, `ContactNumber`, `Age`, `Email`, `pass`, `C_name`, `user_type`) VALUES
 (7, 'Alexandria', 12343, '2024-01-06', 'ahmed1xdlol@gmail.co', '$2y$10$oJI4qqGBwJo39TzeBcIkX.e5E3c.KydgnwVQYdrYHL6KJIGSWkbSO', 'Tomato', 'admin'),
-(8, 'Alexandria', 12343, '2023-12-22', 'ahmed@gmail.com', '$2y$10$vKowrXJTpaeOZOzxvZn2BuaO8fBzjREJ.QceNa8pw05uvOAG8CqvC', 'ahmedamrr', 'user'),
+(8, 'Alexandria', 12343, '2023-12-22', 'ahmed@gmail.com', '$2y$10$vwawrXJTpaeOZOzxvdwO8fBawsREJ.QceNa8pw05uvOAG8CqvC', 'ahmedamrr', 'user'),
 (9, 'Alexandria', 12343, '2024-01-13', 'tomato@gmail.com', '$2y$10$Oypt2SHXKOQHzVdu6BccrOfO.vpj4D8E8UqxFe/UT6OB4Q7HEC7ja', 'tom', 'user'),
-(10, 'z', 12343, '2024-01-18', 'z@gmail.com', '$2y$10$ASoifNmq1wl79IfelZYiYOmviF0AsqOLQu3cmuh7ck/QY1VPMe/JG', 'z', 'user'),
-(11, 'Alexandria', 12343, '2024-01-05', 'Ahmedpro2002@gmail.c', '$2y$10$gvE7moHlz0MCB/TpWR7BdujZLKsVe.In57s0Z7orKzHcV8gEC0zKi', 'a', 'user');
+(10, 'z', 12343, '2024-01-18', 'z@gmail.com', '$2y$10$ASoifNmq1wl79IfelZYiYOmviF0AsqOLQu3cmuh7ck/QY1VPMe/JG', 'z', 'user');
+
 
 -- --------------------------------------------------------
 
